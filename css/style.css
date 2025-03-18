@@ -47,8 +47,8 @@ body {
 
 #conteudo{
     flex-direction: column;    
-    height: 50vh;
-    width: 50vh;
+    height: 90vh;
+    width: 60vh;
     border-radius: 6px;
     background-color: rgb(119,121,245);
     background: linear-gradient(180deg, rgba(119,121,245,1) 0%, rgba(168,56,229,1) 100%);
@@ -61,8 +61,14 @@ body {
     text-align: center;  
     color: #fff;
     margin: 1;
-    
-    
+     
+}
+
+#conteudo h3 {
+    font-family: 'Roboto', sans-serif; /* Corrigido */
+    text-align: left;  
+    color: #fff;
+    margin: 1rem; /* Corrigido */
 }
 
 .imageUsuario{
@@ -78,6 +84,14 @@ body {
     border-radius: 50%;
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.75);    
 }
+
+.imagemCep img {
+    font-family: "Roboto-Regular";
+    width: 80px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção */
+    display: block;
+    margin-bottom: 10px; /* Espaço entre a imagem e o h3 */
+} 
 
 input[type="text"], input[type="password"]{
     font-family: "Poppins-Regular";
