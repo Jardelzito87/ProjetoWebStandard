@@ -45,6 +45,14 @@ body {
     z-index: -1;
 }
 
+nav img{
+
+    width: 80vh;
+    opacity: 0.7;
+
+
+}
+
 #conteudo{
     flex-direction: column;    
     height: 90vh;
@@ -64,13 +72,6 @@ body {
      
 }
 
-#conteudo h3 {
-    font-family: 'Roboto', sans-serif; /* Corrigido */
-    text-align: left;  
-    color: #fff;
-    margin: 1rem; /* Corrigido */
-}
-
 .imageUsuario{
     font-size: 6vh;
     color: #333333;
@@ -85,14 +86,6 @@ body {
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.75);    
 }
 
-.imagemCep img {
-    font-family: "Roboto-Regular";
-    width: 80px; /* Ajuste o tamanho conforme necessário */
-    height: auto; /* Mantém a proporção */
-    display: block;
-    margin-bottom: 10px; /* Espaço entre a imagem e o h3 */
-} 
-
 input[type="text"], input[type="password"]{
     font-family: "Poppins-Regular";
     color: #000000;
@@ -105,7 +98,6 @@ input[type="text"], input[type="password"]{
     border: 1px solid #fff;
     text-align: center;
     
-
 }
 
 input[type="text"]:hover, input[type="password"]:hover{
@@ -170,3 +162,122 @@ input[type="text"]:hover::placeholder, input[type="password"]:hover::placeholder
     background-color: #212873;
     border-color: #212873;
 }
+
+/* Adicionar imagem */
+
+.imagemCep {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+.imagemCep img {
+    width: 425px; 
+    height: 70px;
+}
+
+
+/* Adicionar grupoCep*/
+
+.grupoCep{
+    display: flex;
+    align-items: left;
+    display: flex;
+    justify-content: space-around;
+            
+  }
+
+.grupoCep input[value="Buscar"]{
+    width: 15%;
+    padding: 50px auto;
+    border: none;
+    border-radius: 1 3px 5px 0;
+    background-color: #4351e8;
+    color: #fff;
+    cursor: pointer;        
+        
+}
+
+.grupoCep button[value="Buscar"]:hover{
+    background-color: #212873;
+    
+}
+
+.grupoCep input[value="Limpar"]{
+    width: 15%;
+    padding: 50px auto;
+    border: none;
+    border-radius: 1 3px 5px 0;
+    background-color: #c291e8;
+    color: #fff;
+    cursor: pointer;
+}
+
+.grupoCep button[value="Limpar"]:hover{
+    background-color: #c291e8;
+    align-items: left;
+}
+
+#Ajuste{
+    flex-direction: column;    
+    height: 75vh;
+    width: 46vh;
+    border-radius: 8px;
+    background-color: rgb(119,121,245);
+    background: linear-gradient(180deg, rgba(119,121,245,1) 0%, rgba(168,56,229,1) 100%);
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.75);
+    z-index: 1;
+    display: flex;
+    align-items: center auto;
+    padding: 60px;
+        
+}
+
+#Ajuste input{
+    text-transform: "Roboto-Regular";
+    text-align: left;  
+    color: #fff;
+    margin: 0 1vh 0 0;
+             
+}
+
+#Ajuste p{
+    text-transform: "Poppins-Regular"; 
+    text-align: left;  
+    color: #fff;
+    margin: 1;
+
+}
+
+/* Calculadora*/
+
+.conteudoCalculadora{
+    height: 56vh !important;
+ 
+ }
+
+.botaoCalculadora{
+    color: #fff;
+    width: 9vh;
+    height: 9vh;
+    background-color: #76c4f5;
+    border: 1px solid #76c4f5;
+    margin: 1vh;
+    box-shadow: 1px 1px #000;
+    font-size: xx-large;
+}
+
+.botaoCalculadora:hover{
+    background-color: #5995BA;
+    border: 1px solid #5995BA;   
+}
+
+.grupoBotoesCalculadora{
+    padding: 0 2.3vh;
+}
+
+.inputVisorCalculadora{
+    width: 86% !important;
+}
+
+/* Fim da calculadora Calculadora*/
+

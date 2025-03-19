@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index| Projeto Web Standards</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+</head>
+<body>
+    <nav id="backgroundImage">
+        <div id="conteudo">
+                   
+            <div class="grupoCep">                               
+                <input type="text" name="BuscarCep" placeholder="Ex: 00000-000">
+            </div>
+
+            <div class="grupoEndereco">
+                <input type="text" name="endereco" placeholder="ex: Rua, Avenida, etc">            
+            </div>
+
+            <div class="grupoComplemento">
+                <input type="text" name="grupoComplemento" placeholder="Ex: Apto, Bloco, Casa, etc">
+            </div>
+
+            <div class="grupoNumero">
+                <input type="text" name="numero" placeholder="Ex: 12, 123, 1234, etc">
+            </div>
+
+            <div class="grupoBairro">
+                <input type="text" name="bairro" placeholder="Ex: Centro, Jardim, etc">
+            </div>
+
+            <div class="grupoCidade">
+                <input type="text" name="cidade" placeholder="Ex: São Paulo, Rio de Janeiro, etc">
+            </div>
+
+            <div class="grupoEstado">
+                <input type="text" name="estado" placeholder="Ex: SP, RJ, etc">
+
+            <div class="grupoBotoes">
+                <input class="botaoPadrao BotaoLimpar" type="button" value="Limpar" onclick="limparBuscar()">
+               <input class="botaoPadrao BotaoEntrar" type="button" value="Buscar" onclick="Buscar()">                    
+            </div>
+
+        </div>
+    </nav>      
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="assets/fontawesome/js/all.min.js"></script>
+</html>

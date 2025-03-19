@@ -9,61 +9,56 @@
 </head>
 <body>
     <nav id="backgroundImage">
-        <div id="conteudo">
+        <div id="Ajuste">
 
             <div class="imagemCep">
                  <img src="images/buscacep_correios.jpg" alt="Imagem de Busca de CEP">  
             </div>
           
-            <h3>Digite o CEP a ser procurar</h3>                   
+            <p>Digite o CEP a ser procurar</p>                   
           
             <div class="grupoCep">                               
-                <input type="text" name="BuscarCep" placeholder="Ex: 00000-000">
-                
+                <input type="text" name="BuscarCep" placeholder="Ex: 00000-000">                
+                <input class="botaoPadrao BotaoEntrar" type="button" value="Buscar" onclick="BuscarCep()"> 
+                <input class="botaoPadrao BotaoLimpar" type="button" value="Limpar" onclick="limparCep()">                
             </div> 
-            
-            <div class="grupoBotoes">
-                <input class="botaoPadrao BotaoEntrar" type="button" value="Buscar" onclick="Buscar()">   
-                <input class="botaoPadrao BotaoLimpar" type="button" value="Limpar" onclick="limparBuscar()">
-                                
-            </div>
-
-            <h3>Logradouro/Endereço</h3>  
+                       
+            <p>Logradouro/Endereço</p>  
 
             <div class="grupoEndereco">
                 <input type="text" name="endereco" placeholder="ex: Rua, Avenida, etc">            
             </div>
 
-            <h3>Complemento</h3>  
+            <p>Complemento</p>  
 
             <div class="grupoComplemento">
                 <input type="text" name="grupoComplemento" placeholder="Ex: Apto, Bloco, Casa, etc">
             </div>
 
-            <h3>Número</h3> 
+            <p>Número</p>  
 
             <div class="grupoNumero">
                 <input type="text" name="numero" placeholder="Ex: 12, 123, 1234, etc">
             </div>
 
-            <h3>Bairro</h3>  
+            <p>Bairro</p>    
 
             <div class="grupoBairro">
                 <input type="text" name="bairro" placeholder="Ex: Centro, Jardim, etc">
             </div>
             
-            <h3>Localidade/Cidade</h3>  
+            <p>Localidade/Cidade</p>    
 
             <div class="grupoCidade">
                 <input type="text" name="cidade" placeholder="Ex: São Paulo, Rio de Janeiro, etc">
             </div>
 
-            <h3>UF</h3>  
+            <p>UF</p>   
             
             <div class="grupoEstado">
                 <input type="text" name="estado" placeholder="Ex: SP, RJ, etc">
             </div>
-         
+          
         </div>
     </nav>      
 </body>
