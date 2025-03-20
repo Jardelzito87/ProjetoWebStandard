@@ -252,6 +252,7 @@ input[type="text"]:hover::placeholder, input[type="password"]:hover::placeholder
 
 .conteudoCalculadora{
     height: 56vh !important;
+    width: 50vh !important;
  
  }
 

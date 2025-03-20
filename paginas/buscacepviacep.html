@@ -4,15 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index| Projeto Web Standards</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
 </head>
 <body>
+    <div id="cssmenu">
+        <ul>
+            <li><a href="principal.html">Home</a></li>
+            <li>
+                <span>Aplicativos <i class="arrow"></i></span>
+                <div class="dropdown">
+                    <div class="dropdownItens">
+                        <a href="calculadora.html">Calculadora</a>
+                        <a href="buscarcepcorreios.html">Busca CEP (REST)</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span>Equipe <i class="arrow"></i></span>
+                <div class="dropdown">
+                    <div class="dropdownItens">
+                        <a href="#">Jardel Gomes</a>
+                        <a href="#">Jamshaid Jamali</a>
+                        <a href="#">José Lucas</a>
+                        <a href="#">Rafael Grisi</a>
+                    </div>
+                </div>
+            </li>           
+        </ul>
+    </div> 
     <nav id="backgroundImage">
         <div id="Ajuste">
 
             <div class="imagemCep">
-                 <img src="images/buscacep_correios.jpg" alt="Imagem de Busca de CEP">  
+                 <img src="../images/buscacep_correios.jpg" alt="Imagem de Busca de CEP">  
             </div>
           
             <p>Digite o CEP a ser procurar</p>                   
@@ -57,8 +83,7 @@
             
             <div class="grupoEstado">
                 <input type="text" name="estado" placeholder="Ex: SP, RJ, etc">
-            </div>
-          
+            </div>          
         </div>
     </nav>      
 </body>
