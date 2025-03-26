@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
 </head>
-<body onload="carregar()">
+<body onload="carregarTudo()">
     <div id="cssmenu">
         <ul>
             <li><a href="principal.html">Home</a></li>
@@ -62,8 +62,8 @@
         </div>
         
         <div class="grupoBotoesCalculadora">
-            <input class="botaoCalculadora" type="button" value="=">
-            <input class="botaoCalculadora" type="button" value="CE" onclick="carregar()">
+            <input class="botaoCalculadora" type="button" value="=" onclick="calcular()">
+            <input class="botaoCalculadora" type="button" value="CE"onclick="carregarTudo()">
             <input class="botaoCalculadora" type="button" value="0" onclick="numero0()">
             <input class="botaoCalculadora" type="button" value="*" onclick="divisao()">
             
